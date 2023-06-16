@@ -1,0 +1,38 @@
+grid-template-columns 
+grid-template-rows
+
+Mendefinisikan kolom / baris dengan cara menuliskan nilai dipisahkan oleh spasi. Nilai merepresentasikan ukuran grid track dan spasi merepresentasikan grid line.
+
+template :
+.container {
+    display: grid;
+    grid-template-columns: <track-size> ... | <line-name> <track-size> ...;
+    grid-template-rows: <track-size> ... | <line-name> <track-size> ...;
+}
+
+<track-size> : bisa berupa px, %, auto, atau fr (fraction)
+<line-name> : nama yang bisa diberikan pada track
+
+Explicit & Implicit grid
+Explicit grid ketika kita secara jelas menuliskan ukuran dari grid
+Implicit grid ketika gridnya menentukan sendiri sisanya dari kolom dan baris yang kita tentukan dengan Explicit
+
+grid-auto-columns
+grid-auto-rows
+
+Mengatur ukuran grid track yang tidak dituliskan pada grid-template (implicit track).
+
+template:
+.container {
+    grid-auto-columns: <track-size>;
+    grid-auto-rows: <track-size>;
+}
+
+grid-auto-flow
+
+Mengatur perempatan item / cell pada grid track, termasuk yang ditulis secara implicit.
+
+template:
+.container {
+    grid-auto-flow: row | column | row dense | column dense;
+}
