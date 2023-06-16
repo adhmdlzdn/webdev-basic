@@ -1,0 +1,37 @@
+Special Function & Keywords
+- repeat()
+- min-content & max-content
+- minmax()
+- auto-fill & auto-fit
+
+repeat()
+Menentukan ukuran grid track secara berulang.
+template : 
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+min-content & max-content
+Menentukan seberapa besar ukuran grid track berdasarkan content pada sebuah item.
+template :
+.container {
+    display: grid;
+    grid-template-columns: min-content | max-content;
+}
+
+auto-fill & auto-fit
+Menentukan jumlah item untuk berada pada grid track.
+template : 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit | auto-fill, 150px);
+}
+
+minmax()
+Menentukan ukuran minimal dan maksimal dari grid track.
+template : 
+.container {
+    display: grid;
+    grid-template-columns: minmax(200px, 300px);
+}
