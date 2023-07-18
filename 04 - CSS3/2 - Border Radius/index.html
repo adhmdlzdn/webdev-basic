@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+            border-radius: 0 50% 0 50%; /* agar lebih singkat */
+            /* border-radius: 20px; */
+            /* border-bottom-left-radius: 20%; */ /* dua perintah ini berguna apabila hanya */
+            /* border-top-right-radius: 20%; */ /* sebagian sisi saja yang ingin kita atur */
+            /* jika kita menaruh image didalam div ini, maka posisinya akan ada dibalik div */
+            /* background-image: url(test.jpg); */
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+            text-align: center;
+            line-height: 300px;
+            /* jika imagenya berada didalam div, maka posisinya dia akan ada diluar div */
+            overflow: hidden;
+        }
+        div img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <img src="test.jpg">
+    </div>
+
+</body>
+</html>

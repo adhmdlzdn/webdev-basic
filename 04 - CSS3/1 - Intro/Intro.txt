@@ -10,3 +10,31 @@ Kenapa CSS3?
 - Mengurangi penggunaan gambar = kecepatan load halaman.
 - Penggunaan selector untuk menghindari penggunaan markup yang boros.
 
+Property CSS3
+* border-radius
+* opacity
+* box-sizing
+* box-shadow
+* CSS gradient
+* background
+* pseudo-element
+* selector lanjut
+* webfont
+* media queries
+* transform (2D & 3D)
+* CSS tansition
+* CSS animation
+* CSS filter
+* Flexbox
+* CSS columns
+
+Dari property tadi pada beberapa browser ada yang tidak mendukung, untuk mengatasinya dibutuhkan vendor-prefixes.
+terdiri dari :
+* -webkit-
+* -moz-
+* -ie-
+* -o-
+
+Kenapa kita harus repot menambahkan vendor-prefixes tadi? Jawabannya adalah karena tiap browser memiliki karakteristik yang berbeda.
+
+Tujuan pembelajaran ini : Menulis kode yang 'berjalan' di hampir semua browser.
