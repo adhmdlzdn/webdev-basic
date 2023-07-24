@@ -1,0 +1,40 @@
+CSS3 merupakan generasi ke-3 dari spesifikasi CSS yang direkomendasikan oleh W3C.
+
+Perbedaannya dengan dengan versi sebelumnya adalah pada fiturnya, dimana di CSS3 fiturnya lebih banyak dan lengap.
+
+CSS3 dibagi menjadi beberapa modul, dan tiap-tiap modulnya menambahkan kemampuan / fitur yang ada di CSS2.
+
+Kenapa CSS3?
+- Membuat website menjadi lebih fleksibel.
+- Membuat mock-up dengan cepat tanpa bantuan bahasa scripting.
+- Mengurangi penggunaan gambar = kecepatan load halaman.
+- Penggunaan selector untuk menghindari penggunaan markup yang boros.
+
+Property CSS3
+* border-radius
+* opacity
+* box-sizing
+* box-shadow
+* CSS gradient
+* background
+* pseudo-element
+* selector lanjut
+* webfont
+* media queries
+* transform (2D & 3D)
+* CSS tansition
+* CSS animation
+* CSS filter
+* Flexbox
+* CSS columns
+
+Dari property tadi pada beberapa browser ada yang tidak mendukung, untuk mengatasinya dibutuhkan vendor-prefixes.
+terdiri dari :
+* -webkit-
+* -moz-
+* -ie-
+* -o-
+
+Kenapa kita harus repot menambahkan vendor-prefixes tadi? Jawabannya adalah karena tiap browser memiliki karakteristik yang berbeda.
+
+Tujuan pembelajaran ini : Menulis kode yang 'berjalan' di hampir semua browser.
