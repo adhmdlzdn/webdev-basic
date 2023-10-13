@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition - CSS3</title>
+    <style>
+        /* 
+            properti transition memungkinkan kita dapat mengubah nilai dari property HTML secara halus.
+
+            terdapat 2 property, transition dan animation.
+
+            transition: [property] <durasi> [fungsi] [delay]; 
+
+            durasi (s / ms) - wajib
+
+            property (all <nama-property> none)
+            animatable properties:
+            - background-color
+            - background-position
+            - background-size
+            - border
+            - color
+            - filter
+            - font-size
+            - line-height
+            - top left bottom right
+            - margin padding
+            - width height
+            - opacity
+            - transform
+            - word-spacing
+            - letter-spacing
+            - ...
+            non-animatable properties:
+            - font-family
+            - display
+            - position
+
+            fungsi transisi / timing function
+            timing function:
+            - ease
+            - ease-in
+            - ease-out
+            - ease-in-out
+            - linear
+            - cubic-bezier(w, x, y, z)
+
+            delay (s / ms)
+        */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 900px;
+            border: 5px solid black;
+            margin: 10px auto;
+        }
+        .kotak {
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            text-align: center;
+            line-height: 100px;
+            margin: 5px 0;
+        }
+        .kotak1 { transition: 3s 2s ease; }
+        .kotak2 { transition: 3s 2s ease-in; }
+        .kotak3 { transition: 3s 2s ease-out; }
+        .kotak4 { transition: 3s 2s ease-in-out; }
+        .kotak5 { transition: 3s 2s linear; }
+        .kotak6 { transition: 3s 2s cubic-bezier(0.24, -0.35, 0.78, 1.46); }
+        .container:hover .kotak {
+            transform: rotate(720deg);
+            margin-left: 800px;
+            background-color: royalblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="kotak kotak1">ease</div>
+        <div class="kotak kotak2">ease-in</div>
+        <div class="kotak kotak3">ease-out</div>
+        <div class="kotak kotak4">ease-in-out</div>
+        <div class="kotak kotak5">linear</div>
+        <div class="kotak kotak6">cubic-bezier</div>
+    </div>
+    
+</body>
+</html>
