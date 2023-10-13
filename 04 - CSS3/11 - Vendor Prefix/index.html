@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Vendor Prefix</title>
+    <style>
+        /* 
+        Vendor prefix merupakan sintaks khusus yang harus ditambahkan untuk beberapa property CSS3, sintaksnya spesifik untuk tiap browser / vendor.
+        */
+        /* prefix / awalan, vendor = browser */
+        /* 
+            -webkit-<properti-css3> chrome, safari, opera
+            -moz-<properti-css3> firefox
+            -ms-<properti-css3> internet explorer
+            -o-<properti-css3> operaW
+        */
+        body {
+            text-align: center;
+        }
+        img {
+            -webkit-filter: grayscale(100);
+            filter: grayscale(100);
+        }
+        /* 
+            shouldiprefix.com
+            caniuse.com
+            pleeease.io/play/
+            plugin : emmet
+        */
+    </style>
+</head>
+<body>
+    
+    <img src="./test.jpg" alt="Gambar">
+
+</body>
+</html>
