@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform - CSS3</title>
+    <style>
+        /* 
+        transform memungkinkan kita dapat memanipulasi format visual dari elemen HTML 
+
+        transfrom 2D & 3D
+
+        transfrom: <fungsi>;
+        
+        scale (memperbesar / memperkecil)
+        rotate (memutar)
+        skew (membuat condong / miring)
+        translate (mengubah posisi)
+        */
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            transition: 1s;
+        }
+        .kotak:hover {
+            -webkit-transform: scale(2) rotate(90deg) skew(180deg) translate(150px);
+            transform: scale(2) rotate(90deg) skew(180deg) translate(150px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, architecto dolor officiis iure soluta maxime quidem laudantium, assumenda qui fuga praesentium mollitia ut a porro corporis sint dolore ipsam magni.</p>
+    
+</body>
+</html>
