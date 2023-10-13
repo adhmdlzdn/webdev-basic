@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter - CSS3</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        /* filter: <tipe-filter> (perlu menggunakan vendor prefix*/
+        /* 
+            Filter :
+            blur(px)
+            brigthness(angka | %)
+            contrast(angka | %)
+            saturate(angka | %)
+            grayscale(angka | %)
+            sepia(angka | %)
+            hue-rotate(deg)
+            invert(angka | %)
+            opacity(angka | %)
+            drop-shadow(sama seperti box-shadow)
+        */
+        /* https://github.khronos.org/siggraph2012course/CanvasCSSAndWebGL/demos/CSS_Filters.htm */
+        img {
+            -webkit-filter: blur(10px);
+            filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="./test.jpg" alt="Contoh Gambar">
+
+</body>
+</html>
