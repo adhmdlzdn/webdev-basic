@@ -1,0 +1,24 @@
+Konsep Pemrograman :
+- Variable
+- Tipe Data
+- Pengkondisian
+- Pengulangan
+- Object
+- Array
+- Function
+
+Kenapa Javascript?
+
+Skill?
+- Tidak ada skill khusus, karena akan belajar dari dasar
+
+Sistem Operasii?
+- Tidak ada OS khusus
+
+Latar Belakang?
+- Semua orang dapat belajar
+
+Kenapa belajar Pemrograman?
+> Belajar teliti, disiplin dan berpikir abstrak
+> Mengubah komputer menjadi alat yang powerfull
+> Membentuk pola pikir komputasional

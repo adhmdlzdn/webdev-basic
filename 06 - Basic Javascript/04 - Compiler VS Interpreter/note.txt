@@ -1,0 +1,36 @@
+Compiler VS Interpreter
+
+Compiler :
+jika misal A adalah pembuat code, dan akan membagikan programnya ke B. Maka ia cukup mengcompilenya dan membagikan file executable, B dapat membukanya tanpa melihat source code aslinya. (C, C++, Objective-C)
+
+Interpreter :
+Kebalikan dari Compiler (JS, PHP)
+
+Hybrid :
+A membuat source code dan mengcompilenya, namun tidak menghasilkan file executable tapi menghasilkan intermediate language. Baru file tadi diberikan ke B, dan B melakukan JIT compilation, mksdnya dia mengcompile sambil menjalankan programnya. (Java, Python, VB.Net)
+
+Compiler :
+- Kelebihan :
+    - Siap untuk dijalankan
+    - Lebih cepat
+    - Source code tidak terlihat
+- Kekurangan :
+    - Tidak lintas platform
+    - Tidak flexsibel
+    - Langkah tambahan
+
+Interpreter :
+- Kelebihan :
+    - Lintas platform
+    - Flexsibel
+    - Mudah untuk di uji
+- Kekurangan :
+    - Butuh interpreter
+    - Lebih lambat
+    - Source code mudah diakses
+
+Web Development : PHP, C, JS, C++, Java, Python, Ruby
+Game Development : C#, C, C++, Java, Python, Ruby
+Mobile App Development : C#, C++, Java
+Data Analysis : R, Python, Matlab
+Embedded System Programming : C, C++, Python

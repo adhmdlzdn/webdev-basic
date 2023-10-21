@@ -1,0 +1,21 @@
+NCSA (National Center of Supercomputing Application)
+* Mosaic Browser - 1992
+* Netscape Communicator -> Netscape Navigator
+* Brendan Eich (Di rektrut untuk membuat bahasa scripting untuk browser) 
+    -> dengan menggabungkan Java + Scheme + Self = Mocha (dikerjakan selama 10 hari) 
+    -> LiveScript
+    -> JavaScript (kerjasama antara Netscape dan sun (Java))
+    -> Bertemu dengan ecma untuk mendapatkan ISO (1996)
+    -> ECMAScript
+
+Perkembangan ECMAScript
+- 1997, ES1
+- 1998, ES2
+- 1999, ES3 - Launch
+- 2005, AJAX
+- 2008, ES4 *Gagal (dibuat ulang dengan project bernama ES Harmony)
+- 2009, ES5
+    - Default
+    - Strict
+- 2015, ES6
+- 2016, ES7

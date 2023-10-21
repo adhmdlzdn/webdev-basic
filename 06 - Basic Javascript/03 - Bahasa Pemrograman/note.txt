@@ -1,0 +1,13 @@
+Bahasa yang populer : C, Java, JS, Python, dll
+
+Kenapa banyak? Seperti bahasa manusia, banyak orang yang ingin membuat bahasa sendiri
+
+Bahasa Assembly (Bahasa tingkat rendah)
+JS, Ruby, Python, dll (Bahasa tingkat tinggi)
+
+Hal peting sebelum belajar pemrograman
+1. Bagaimana menulis source code
+ditulis dengan Plain text, dapat menggunakan text editor. biasanya syntax atau cara penulisannya berbeda.
+2. Bagaimana source code dikonversi ke bahasa mesin
+3. Bagaimana mengeksekusi source code
+

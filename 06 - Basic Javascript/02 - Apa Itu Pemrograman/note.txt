@@ -1,0 +1,24 @@
+Program adalah kumpulan / serangkaian instruksi
+
+Program adalah urutan instruksi terstruktur, yang yang dirancang agar komputer dapat berprilaku sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah pekerjaan.
+
+Instruksi untuk komputer:
+- Memberi perintah pada komputer
+- Melalui bahasa pemgrograman
+- Memecah tugas jadi instruksi sederhana
+
+Instruksi sederhana?
+- Melakukan operasi matematika
+- Menampilkan tulisan ke layar
+- Mengubah ukuran, posisi dan warna
+- dll
+
+Perilaku komputer:
+- Komputer tidak begitu pintar
+- Tapi penurut, tidak kenal lelah
+
+"Berikanlah instruksi yang benar"
+
+Perilaku = statement (perintah untuk komputer)
+
+Pemrograman adalah cara kita untuk membeirkan instruksi yang simple dan terstruktur pada komputer, instruksi yang diberikan harus benar dan masuk akal, lalu instruksi yang diberikan harus sesuai dengan aturan pada bahasa pemrograman tertentu.

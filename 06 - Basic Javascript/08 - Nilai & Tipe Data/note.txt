@@ -1,0 +1,17 @@
+Data = bit
+
+bit = "bit / binary digit adalah satuan terkeceil dari data yang ada di dalam komputer kita"
+
+nilai bit = 0 / 1
+
+biner 23
+->  64 32 16 8 4 2 1
+    0 0 1 0 1 1 1
+
+Tipe data:
+- number (10, -1500, 3.14)
+- string ('hello world', "hello world!")
+- boolean
+- object
+- function
+- undefined
